@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            WelcomeView()
+            ExerciseView(index: 0)
+            ForEach(0 ..< 4){ index in
+                ExerciseView(index: index)
+            }
+            Text("Exercise 2")
         }
-        .padding()
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
     }
 }
 
