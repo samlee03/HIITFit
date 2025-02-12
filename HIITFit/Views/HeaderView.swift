@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct HeaderView: View {
-    let exerciseName: String
+    let titleText: String
     var body: some View {
         VStack {
-            Text(exerciseName)
+            Text(titleText)
                 .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
             HStack {
+                Image(systemName: "hand.wave")
                 Image(systemName: "1.circle")
                 Image(systemName: "2.circle")
                 Image(systemName: "3.circle")
@@ -26,7 +27,7 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(exerciseName: "Squat")
+        HeaderView(titleText: "Squat")
             .previewLayout(.sizeThatFits)
     }
 }
