@@ -19,6 +19,7 @@
 		825C9EDD2D52A3AE00A0E6B5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C9EDC2D52A3AE00A0E6B5 /* WelcomeView.swift */; };
 		825C9EDF2D52A3CD00A0E6B5 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C9EDE2D52A3CD00A0E6B5 /* ExerciseView.swift */; };
 		825C9EE22D52CA9F00A0E6B5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C9EE12D52CA9F00A0E6B5 /* HeaderView.swift */; };
+		828193E42D6A86770039265A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828193E32D6A86770039265A /* TimerView.swift */; };
 		82B13ABB2D557E3A001BC143 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B13ABA2D557E3A001BC143 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		825C9EDC2D52A3AE00A0E6B5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		825C9EDE2D52A3CD00A0E6B5 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		825C9EE12D52CA9F00A0E6B5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		828193E32D6A86770039265A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		82B13ABA2D557E3A001BC143 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				82B13ABA2D557E3A001BC143 /* RatingView.swift */,
 				82093C9D2D5C0AFD00AF5771 /* HistoryView.swift */,
 				82093CA92D5EADDD00AF5771 /* SuccessView.swift */,
+				828193E32D6A86770039265A /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				825C9EE22D52CA9F00A0E6B5 /* HeaderView.swift in Sources */,
 				82093C9E2D5C0AFD00AF5771 /* HistoryView.swift in Sources */,
+				828193E42D6A86770039265A /* TimerView.swift in Sources */,
 				825C9EDF2D52A3CD00A0E6B5 /* ExerciseView.swift in Sources */,
 				825C9ED12D529D1B00A0E6B5 /* ContentView.swift in Sources */,
 				82093CA82D5C19F400AF5771 /* HistoryStoreDevData.swift in Sources */,
