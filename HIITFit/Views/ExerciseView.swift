@@ -23,7 +23,7 @@ struct ExerciseView: View {
         index + 1 == Exercise.exercises.count
     }
     var startButton: some View {
-        Button("Start Exercise") {
+        RaisedButton(buttonText: "Start Exercise") {
             showTimer.toggle()
         }
     }
@@ -42,6 +42,18 @@ struct ExerciseView: View {
         .sheet(isPresented: $showSuccess){
             SuccessView(selectedTab: $selectedTab)
         }
+    }
+    var historyButton: some View {
+        Button(
+            action: {
+                showHistory = true
+            }, label: {
+                Text("History")
+                    .fontWeight(.bold)
+                    .padding([.leading, .trailing], 5)
+            })
+        .padding(.bottom, 10)
+        .buttonStyle(EmbossedButtonStyle())
     }
     var body: some View {
         GeometryReader { geometry in
@@ -68,9 +80,7 @@ struct ExerciseView: View {
                 Spacer()
                 RatingView(exerciseIndex: index)
                     .padding()
-                Button("History") {
-                    showHistory.toggle()
-                }
+                historyButton
                 .sheet(isPresented: $showHistory) {
                     HistoryView(showHistory: $showHistory)
                 }

@@ -20,7 +20,11 @@
 		825C9EDF2D52A3CD00A0E6B5 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C9EDE2D52A3CD00A0E6B5 /* ExerciseView.swift */; };
 		825C9EE22D52CA9F00A0E6B5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C9EE12D52CA9F00A0E6B5 /* HeaderView.swift */; };
 		828193E42D6A86770039265A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828193E32D6A86770039265A /* TimerView.swift */; };
+		829540162D80F78000F823CF /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829540152D80F78000F823CF /* GradientBackground.swift */; };
 		82B13ABB2D557E3A001BC143 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B13ABA2D557E3A001BC143 /* RatingView.swift */; };
+		82BF09192D80C102009442E4 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF09182D80C102009442E4 /* RaisedButton.swift */; };
+		82BF091B2D80E14D009442E4 /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF091A2D80E14D009442E4 /* EmbossedButton.swift */; };
+		82BF091D2D80EDBB009442E4 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF091C2D80EDBB009442E4 /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +42,11 @@
 		825C9EDE2D52A3CD00A0E6B5 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		825C9EE12D52CA9F00A0E6B5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		828193E32D6A86770039265A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		829540152D80F78000F823CF /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		82B13ABA2D557E3A001BC143 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		82BF09182D80C102009442E4 /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		82BF091A2D80E14D009442E4 /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
+		82BF091C2D80EDBB009442E4 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				82093C9D2D5C0AFD00AF5771 /* HistoryView.swift */,
 				82093CA92D5EADDD00AF5771 /* SuccessView.swift */,
 				828193E32D6A86770039265A /* TimerView.swift */,
+				82BF09182D80C102009442E4 /* RaisedButton.swift */,
+				82BF091A2D80E14D009442E4 /* EmbossedButton.swift */,
+				82BF091C2D80EDBB009442E4 /* ContainerView.swift */,
+				829540152D80F78000F823CF /* GradientBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,17 +196,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				825C9EE22D52CA9F00A0E6B5 /* HeaderView.swift in Sources */,
+				829540162D80F78000F823CF /* GradientBackground.swift in Sources */,
 				82093C9E2D5C0AFD00AF5771 /* HistoryView.swift in Sources */,
 				828193E42D6A86770039265A /* TimerView.swift in Sources */,
 				825C9EDF2D52A3CD00A0E6B5 /* ExerciseView.swift in Sources */,
 				825C9ED12D529D1B00A0E6B5 /* ContentView.swift in Sources */,
+				82BF091D2D80EDBB009442E4 /* ContainerView.swift in Sources */,
 				82093CA82D5C19F400AF5771 /* HistoryStoreDevData.swift in Sources */,
 				825C9EDD2D52A3AE00A0E6B5 /* WelcomeView.swift in Sources */,
+				82BF09192D80C102009442E4 /* RaisedButton.swift in Sources */,
 				82093CA32D5C15CD00AF5771 /* Exercise.swift in Sources */,
 				82093CAA2D5EADDD00AF5771 /* SuccessView.swift in Sources */,
 				825C9ECF2D529D1B00A0E6B5 /* HIITFitApp.swift in Sources */,
 				82093CA52D5C15FB00AF5771 /* HistoryStore.swift in Sources */,
 				82B13ABB2D557E3A001BC143 /* RatingView.swift in Sources */,
+				82BF091B2D80E14D009442E4 /* EmbossedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
